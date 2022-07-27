@@ -1,5 +1,5 @@
 let Typewriter = 0;
-const txt = "Kuuuuuuuu", txts = "Social";
+const txt = "MehmetCanWT", txts = "Social";
 
 function applyCursorRippleEffect(t) {
     const e = document.createElement("div");
@@ -26,7 +26,7 @@ function typeWriter() {
 
 function fetchgithubdata() {
     setTimeout(() => {
-        fetch("https://api.github.com/users/Kuuuuuuuu").then(t => {
+        fetch("https://api.github.com/users/MehmetCanWT").then(t => {
             t.json().then(t => {
                 document.getElementById("count").innerHTML = `My Github Stats <br>Followers: ${t.followers}<br>Following: ${t.following}<br>Public Repos: ${t.public_repos}`
             });
