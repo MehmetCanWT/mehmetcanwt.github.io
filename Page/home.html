@@ -21,24 +21,6 @@
     <link href="../CSS/font-awesome.css" rel="stylesheet">
     <link href="../CSS/hover.css" rel="stylesheet">
 </head>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-hcaptcha"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-hcaptcha"></script>
-
-<h-captcha id="signupCaptcha"
-           site-key="c965a0a5-752d-46f2-bab1-338bb0bdb148"
-           size="normal"
-           tabindex="0"></h-captcha>
-
-<script>
-    const signupCaptcha = document.getElementById('signupCaptcha');
-
-    signupCaptcha.addEventListener('verified', (e) => {
-        console.log('verified event', {token: e.token});
-    });
-    signupCaptcha.addEventListener('error', (e) => {
-        console.log('error event', {error: e.error});
-    });
-</script>
 <script src="../Script/Utils.js"></script>
 <script src="../Script/BootStrap.js"></script>
 <script src="../Script/Materialize.js"></script>
